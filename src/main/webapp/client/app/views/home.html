@@ -1,0 +1,32 @@
+			
+    <div ng-controller="homeCtrl">									
+        
+        	<h1>Meilleures ventes</h1>
+            <!-- MEILLEURES VENTES -->
+            <div class="best">
+                        <table>
+                        		<tr>
+                                <td ng-repeat="data in datasBest"><a href="#detail/{{data.id}}"><img ng-src='{{data.poster}}' class="img-rounded poster1" alt=""/></a></td></tr>
+                                <tr>
+                                <td ng-repeat="data in datasBest" style="font-size: 14px;"><a href="#detail/{{data.id}}"><p id="dataBest">{{data.title}} <br/> {{data.year}}</p></a></td>
+                                </tr>                      
+                        </table>  
+            </div>
+           
+                
+            <h1>Suggestions</h1>
+            <!-- SUGGESTIONS -->
+             <div class="best">
+                        <table>
+                        		<tr>
+                                <td ng-repeat="data2 in datasSuggest"><a href="#detail/{{data2.id}}"><img ng-src='{{data2.poster}}' class="img-rounded poster1" alt=""/></a></td></tr>
+                                <tr>
+                                <td ng-repeat="data2 in datasSuggest" style="font-size: 14px"><a href="#detail/{{data2.id}}"><p id="dataSuggest">{{data2.title}} <br/> {{data2.year}}</p></a></td>
+                                </tr>                      
+                        </table>  
+            </div>
+
+				
+    </div>	
+				
+			<!--/section-->

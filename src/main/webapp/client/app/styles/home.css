@@ -1,0 +1,38 @@
+table{
+	margin-top: 1%;
+	margin-bottom: 4%;
+	text-decoration:none;
+	text-align: center;
+	/*border-collapse: collapse;*/
+	/*width: 90%;*/
+	border-spacing:37px 0px;
+
+    border-collapse: separate;
+
+}
+
+img{
+	width: 140px;
+	height: 200px;
+}
+
+#dataSuggest{
+	padding-top: 5%;
+}
+#dataBest{
+	padding-top: 5%;
+}
+/*
+.best table>tr>td{
+	width: 450px;
+	background-color: yellow;
+	margin: auto
+
+}
+*/
+
+h1{
+	font-family:"palatino linotype", palatino, serif;
+	text-transform: capitalize;
+	font-size: 150%;
+}

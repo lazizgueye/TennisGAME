@@ -1,0 +1,26 @@
+.poster1{
+	box-shadow: 5px 5px 8px black;
+}
+
+.search p{
+	width: 31%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.search p>a{
+	text-decoration:none;
+	display: block;
+	text-align: center;
+}
+
+.search p>a>img {
+	width: 170px;
+	height: 230px;
+}
+
+
+.search #result{
+	color:grey;
+}

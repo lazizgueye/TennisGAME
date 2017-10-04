@@ -1,0 +1,10 @@
+com\maven\junit\game\TddTennisGame\Player2.class
+com\maven\junit\game\TddTennisGame\Game2.class
+iInterface\IGame$State.class
+iInterface\ISet.class
+iInterface\IGame.class
+com\maven\junit\game\TddTennisGame\Main2.class
+iInterface\IPlayer.class
+com\maven\junit\game\TddTennisGame\Set.class
+iInterface\ICalculator.class
+iInterface\ISet$State.class
